@@ -1,3 +1,6 @@
+<svelte:head>
+	<title>DMB 25</title>
+</svelte:head>
 <div class="flex min-h-screen items-center justify-center bg-bg-primary p-4">
 	<div class="flex flex-col gap-6">
 		<h1 class="text-center text-6xl tracking-wide text-white md:text-7xl">Downing May Ball 2025</h1>
