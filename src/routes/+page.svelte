@@ -27,155 +27,199 @@
 	<!-- committee roles go here - 3x columns of name blocks/roles -->
 	<div class="min-h-screen items-center justify-center p-8">
 		<h1 class="text-center text-6xl tracking-wide text-bg-primary md:text-7xl">Committee</h1>
-		<div class="mx-auto mb-16 mt-16 max-w-7xl px-32">
-			<div class="grid grid-cols-1 gap-x-32 gap-y-14 md:grid-cols-2 lg:grid-cols-3">
+		<div class="mx-auto mb-16 mt-16 max-w-7xl px-4 lg:px-24">
+			<div class="grid grid-cols-1 gap-x-16 gap-y-14 md:grid-cols-2 lg:grid-cols-3">
 				<div
-					class="flex h-32 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6"
-				>
-					<h3 class="text-xl font-bold text-bg-primary">Ivan Alexei Ampiah</h3>
-					<p class="text-center text-lg font-medium text-gray-600">Vice President (Creative)</p>
-				</div>
-
-				<div
-					class="flex h-32 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6"
+					class="flex h-40 w-full flex-col items-center justify-center rounded-md
+          border-2 border-solid border-bg-primary p-6 text-center md:col-span-2 lg:col-span-3"
 				>
 					<h3 class="text-xl font-bold text-bg-primary">Finn Lavington</h3>
 					<p class="text-center text-lg font-medium text-gray-600">President</p>
+					<p class="text-center text-sm font-medium text-gray-400">president@downingball.co.uk</p>
 				</div>
 
 				<div
-					class="flex h-32 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6"
+					class="flex h-40 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6 text-center"
+				>
+					<h3 class="text-xl font-bold text-bg-primary">Ivan Alexei Ampiah</h3>
+					<p class="text-center text-lg font-medium text-gray-600">Vice President (Creative)</p>
+					<p class="text-center text-sm font-medium text-gray-400">
+						vice-president-creative@downingball.co.uk
+					</p>
+				</div>
+
+				<div
+					class="flex h-40 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6 text-center"
+				>
+					<h3 class="text-xl font-bold text-bg-primary">Cameron Lackey</h3>
+					<p class="text-center text-lg font-medium text-gray-600">Treasurer</p>
+					<p class="text-center text-sm font-medium text-gray-400">treasurer@downingball.co.uk</p>
+				</div>
+
+				<div
+					class="flex h-40 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6 text-center"
 				>
 					<h3 class="text-xl font-bold text-bg-primary">Senya Kang</h3>
 					<p class="text-center text-lg font-medium text-gray-600">Vice President (Operations)</p>
+					<p class="text-center text-sm font-medium text-gray-400">
+						vice-president-operations@downingball.co.uk
+					</p>
 				</div>
 
 				<div
-					class="flex h-32 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6"
+					class="flex h-40 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6 text-center"
+				>
+					<h3 class="text-xl font-bold text-bg-primary">Emily Darnell</h3>
+					<p class="text-center text-lg font-medium text-gray-600">Committee Consultant</p>
+					<p class="text-center text-sm font-medium text-gray-400">ed589@cam.ac.uk</p>
+				</div>
+
+				<div
+					class="flex h-40 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6 text-center"
 				>
 					<h3 class="text-xl font-bold text-bg-primary">Connor Dennis</h3>
 					<p class="text-center text-lg font-medium text-gray-600">Drinks</p>
+					<p class="text-center text-sm font-medium text-gray-400">drinks@downingball.co.uk</p>
 				</div>
 
 				<div
-					class="flex h-32 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6"
+					class="flex h-40 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6 text-center"
 				>
 					<h3 class="text-xl font-bold text-bg-primary">Thomas Quail</h3>
 					<p class="text-center text-lg font-medium text-gray-600">Drinks</p>
+					<p class="text-center text-sm font-medium text-gray-400">drinks@downingball.co.uk</p>
 				</div>
 
 				<div
-					class="flex h-32 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6"
+					class="flex h-40 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6 text-center"
 				>
 					<h3 class="text-xl font-bold text-bg-primary">Arun Gill</h3>
 					<p class="text-center text-lg font-medium text-gray-600">Musical Ents</p>
+					<p class="text-center text-sm font-medium text-gray-400">music@downingball.co.uk</p>
 				</div>
 
 				<div
-					class="flex h-32 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6"
+					class="flex h-40 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6 text-center"
 				>
 					<h3 class="text-xl font-bold text-bg-primary">James Waine</h3>
 					<p class="text-center text-lg font-medium text-gray-600">Non-Musical Ents</p>
+					<p class="text-center text-sm font-medium text-gray-400">ents@downingball.co.uk</p>
 				</div>
 
 				<div
-					class="flex h-32 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6"
+					class="flex h-40 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6 text-center"
 				>
 					<h3 class="text-xl font-bold text-bg-primary">Imogen Knight</h3>
 					<p class="text-center text-lg font-medium text-gray-600">Aesthetics</p>
+					<p class="text-center text-sm font-medium text-gray-400">aesthetics@downingball.co.uk</p>
 				</div>
 
 				<div
-					class="flex h-32 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6"
+					class="flex h-40 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6 text-center"
 				>
 					<h3 class="text-xl font-bold text-bg-primary">Abraham Villiers</h3>
 					<p class="text-center text-lg font-medium text-gray-600">Aesthetics</p>
+					<p class="text-center text-sm font-medium text-gray-400">aesthetics@downingball.co.uk</p>
 				</div>
 
 				<div
-					class="flex h-32 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6"
+					class="flex h-40 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6 text-center"
 				>
 					<h3 class="text-xl font-bold text-bg-primary">Charlotte Crawley</h3>
 					<p class="text-center text-lg font-medium text-gray-600">Aesthetics</p>
+					<p class="text-center text-sm font-medium text-gray-400">aesthetics@downingball.co.uk</p>
 				</div>
 
 				<div
-					class="flex h-32 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6"
+					class="flex h-40 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6 text-center"
 				>
 					<h3 class="text-center text-xl font-bold text-bg-primary">Aleena Benson</h3>
 					<p class="text-center text-lg font-medium text-gray-600">Food</p>
+					<p class="text-center text-sm font-medium text-gray-400">food@downingball.co.uk</p>
 				</div>
 
 				<div
-					class="flex h-32 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6"
+					class="flex h-40 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6 text-center"
 				>
 					<h3 class="text-xl font-bold text-bg-primary">Aditya Chougule</h3>
 					<p class="text-center text-lg font-medium text-gray-600">Food</p>
+					<p class="text-center text-sm font-medium text-gray-400">food@downingball.co.uk</p>
 				</div>
 
 				<div
-					class="flex h-32 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6"
+					class="flex h-40 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6 text-center"
 				>
 					<h3 class="text-xl font-bold text-bg-primary">Mia Urwin</h3>
 					<p class="text-center text-lg font-medium text-gray-600">Personnel</p>
+					<p class="text-center text-sm font-medium text-gray-400">personnel@downingball.co.uk</p>
 				</div>
 
 				<div
-					class="flex h-32 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6"
+					class="flex h-40 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6 text-center"
 				>
 					<h3 class="text-xl font-bold text-bg-primary">Dana Marlow</h3>
 					<p class="text-center text-lg font-medium text-gray-600">Personnel</p>
+					<p class="text-center text-sm font-medium text-gray-400">personnel@downingball.co.uk</p>
 				</div>
 
 				<div
-					class="flex h-32 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6"
+					class="flex h-40 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6 text-center"
 				>
 					<h3 class="text-xl font-bold text-bg-primary">James Jefferson</h3>
 					<p class="text-center text-lg font-medium text-gray-600">Ticketing</p>
+					<p class="text-center text-sm font-medium text-gray-400">ticketing@downingball.co.uk</p>
 				</div>
 
 				<div
-					class="flex h-32 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6"
+					class="flex h-40 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6 text-center"
 				>
 					<h3 class="text-xl font-bold text-bg-primary">Alex Shirley</h3>
 					<p class="text-center text-lg font-medium text-gray-600">Logistics</p>
+					<p class="text-center text-sm font-medium text-gray-400">logistics@downingball.co.uk</p>
 				</div>
 
 				<div
-					class="flex h-32 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6"
+					class="flex h-40 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6 text-center"
 				>
 					<h3 class="text-xl font-bold text-bg-primary">Stella Wilson</h3>
 					<p class="text-center text-lg font-medium text-gray-600">Logistics</p>
+					<p class="text-center text-sm font-medium text-gray-400">logistics@downingball.co.uk</p>
 				</div>
 
 				<div
-					class="flex h-32 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6"
+					class="flex h-40 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6 text-center"
 				>
 					<h3 class="text-center text-xl font-bold text-bg-primary">Marcus Cloke Browne</h3>
 					<p class="text-center text-lg font-medium text-gray-600">Production</p>
+					<p class="text-center text-sm font-medium text-gray-400">production@downingball.co.uk</p>
 				</div>
 
 				<div
-					class="flex h-32 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6"
+					class="flex h-40 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6 text-center"
 				>
 					<h3 class="text-xl font-bold text-bg-primary">Rosie Egelie</h3>
 					<p class="text-center text-lg font-medium text-gray-600">
 						Accessibility, Sustainability & Welfare
 					</p>
+					<p class="text-center text-sm font-medium text-gray-400">asw@downingball.co.uk</p>
 				</div>
 
 				<div
-					class="flex h-32 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6"
+					class="flex h-40 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6 text-center"
 				>
 					<h3 class="text-xl font-bold text-bg-primary">Bryan Abi Karam</h3>
 					<p class="text-center text-lg font-medium text-gray-600">Webmaster</p>
+					<p class="text-center text-sm font-medium text-gray-400">webmaster@downingball.co.uk</p>
 				</div>
 
+				<div class="max-lg:hidden"></div>
+
 				<div
-					class="flex h-32 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6"
+					class="flex h-40 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6 text-center"
 				>
 					<h3 class="text-xl font-bold text-bg-primary">Tom Mills</h3>
 					<p class="text-center text-lg font-medium text-gray-600">Security and Safety</p>
+					<p class="text-center text-sm font-medium text-gray-400">security@downingball.co.uk</p>
 				</div>
 			</div>
 		</div>
