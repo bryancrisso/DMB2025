@@ -1,12 +1,14 @@
 <svelte:head>
 	<title>DMB 25</title>
 </svelte:head>
-<div class="flex min-h-screen items-center justify-center bg-bg-primary p-4">
+<div class="relative flex min-h-screen w-full items-center justify-center bg-bg-primary p-4">
 	<div class="flex flex-col gap-6">
-		<h1 class="text-center text-6xl tracking-wide text-white md:text-7xl">Downing May Ball 2025</h1>
-		<h2 class="text-center text-5xl font-light tracking-wide text-white md:text-6xl">24/06/2025</h2>
+		<h1 class="text-center text-6xl tracking-wide text-white md:text-7xl">The Downing May Ball</h1>
+		<h2 class="text-center text-3xl font-light tracking-wide text-white md:text-4xl">
+			Returning on Tuesday the 24th of June 2025
+		</h2>
 	</div>
-	<div class="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
+	<div class="absolute bottom-8 animate-bounce">
 		<svg
 			width="40"
 			height="40"
