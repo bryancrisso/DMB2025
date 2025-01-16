@@ -104,12 +104,17 @@
 					<IconBrandTiktok />
 				</a>
 			</div>
+			<a
+				class="text-center font-serif text-base font-extrabold text-white hover:underline"
+				href="Terms & Conditions DMB 2025.pdf">Terms & Conditions</a
+			>
 			<p class="text-center font-serif text-lg font-bold text-white">Address</p>
 			<p class="text-md text-center font-serif text-white">
 				Downing College May Ball<br />Downing College<br />Regent St, Cambridge<br />CB2 1DQ
 			</p>
 			<p class="text-center font-serif text-sm text-gray-200">
-				Creative design by Abraham Villers. Website implementation by Bryan Abi Karam
+				Creative design by Abraham Villers. Website implementation and photography by Bryan Abi
+				Karam
 			</p>
 			<p class="text-center font-serif text-sm text-gray-200">
 				Copyright © 2025 Downing College May Ball - VAT Number: 905135158

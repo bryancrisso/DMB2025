@@ -1,12 +1,16 @@
 <script lang="ts">
-	let { name, role, email, domain } = $props();
+	let { name, role, email, domain, image = '' } = $props();
 </script>
 
 <div
 	class="inline h-80 w-full flex-col items-center justify-center border-2 border-solid border-bg-primary p-4 text-center"
 >
 	<div class="mb-5 flex h-1/2 flex-col items-center justify-center">
-		<div class="aspect-1 h-full rounded-full bg-gray-900"></div>
+		{#if image == ''}
+			<div class="aspect-1 h-full rounded-full bg-gray-900"></div>
+		{:else}
+			<img class="aspect-1 h-full rounded-full" src={image} alt="Committee member headshot" />
+		{/if}
 	</div>
 	<div class="h-1/2">
 		<h3 class="text-xl font-bold text-bg-primary">{name}</h3>

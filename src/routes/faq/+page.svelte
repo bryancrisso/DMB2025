@@ -10,9 +10,9 @@
 		<h1 class="mb-12 self-center text-center font-serif text-3xl text-white md:text-4xl">FAQ</h1>
 		<CollapsibleText question="How can I purchase a ticket to the Downing May Ball?">
 			<div class="pl-2 text-left font-serif text-sm font-bold text-gray-200 md:text-base">
-				<p>Tickets can be purchased via our ticketing website</p>
+				<p>Tickets can be purchased via our ticketing website.</p>
 				<br />
-				<p>1st (Internal Release)</p>
+				<p>1st (Internal Release):</p>
 				<ul class="list-inside list-disc">
 					<li>Downing Student & Guests</li>
 					<li>Downing Full-Bursary Student</li>
@@ -21,7 +21,7 @@
 					<li>Guests of Downing Fellows & Staff</li>
 				</ul>
 				<br />
-				<p>2nd (General) Release</p>
+				<p>2nd (General) Release:</p>
 				<ul class="list-inside list-disc">
 					<li>Cambridge University Student & Guests</li>
 					<li>Non-Cambridge Student & Guests</li>
@@ -31,15 +31,15 @@
 
 		<CollapsibleText question="When will tickets be released?">
 			<div class="pl-2 text-left font-serif text-sm font-bold text-gray-200 md:text-base">
-				<p>The 1st (Internal) release will begin on the 30th of January at 1pm</p>
-				<p>The 2nd (General) release will begin on the 6th of February at 1pm</p>
+				<p>The 1st (Internal) release will begin on the 30th of January at 1pm.</p>
+				<p>The 2nd (General) release will begin on the 6th of February at 1pm.</p>
 			</div>
 		</CollapsibleText>
 
 		<CollapsibleText question="How many guests am I allowed to bring?">
 			<div class="pl-2 text-left font-serif text-sm font-bold text-gray-200 md:text-base">
-				<p>Downing Students are allowed to bring up to 4 guests</p>
-				<p>All other ticket types are allowed to bring up to 2 guests</p>
+				<p>Downing Students are allowed to bring up to 4 guests.</p>
+				<p>All other ticket types are allowed to bring up to 2 guests.</p>
 			</div>
 		</CollapsibleText>
 
@@ -89,8 +89,8 @@
 				</table>
 				<p>
 					<br />
-					*Non-Cambridge student ticket holders must either be an alumnus, fellow, or member of staff
-					within the collegiate University of Cambridge
+					*Non-Cambridge student ticket holders must either be alumni, fellows, or members of staff within
+					the collegiate University of Cambridge.
 				</p>
 			</div>
 		</CollapsibleText>
@@ -107,17 +107,17 @@
 					If you would like to purchase an add-on after you have bought your standard ticket, please
 					contact <a class="underline" href="mailto:ticketing@downingball.co.uk"
 						>ticketing@downingball.co.uk</a
-					>
+					>.
 				</p>
 			</div>
 		</CollapsibleText>
 
 		<CollapsibleText question="What are the admission times?">
 			<div class="pl-2 text-left font-serif text-sm font-bold text-gray-200 md:text-base">
-				<p>Standard and queue jump entrance will begin at 8:30pm, with last entry at 10:30pm</p>
+				<p>Standard and queue jump entrance will begin at 8:30pm, with last entry at 10:30pm.</p>
 				<p>
 					VIP ticket holders are allowed to enter the ball from 7:30pm onwards, with the VIP
-					reception commencing at 7:45pm
+					reception commencing at 7:45pm.
 				</p>
 			</div>
 		</CollapsibleText>
@@ -136,18 +136,18 @@
 				</p>
 				<p>To change the name on a ticket:</p>
 				<ol class="ml-2 list-inside list-decimal">
-					<li>Go to the ticketing website</li>
+					<li>Go to the ticketing website.</li>
 					<li>Purchase either the "Name Change for Tickets" or "Name Change for Add-Ons" extra.</li>
 					<li>
 						Immediately fill out <a href="https://forms.gle/GprDqVKqkt5dnwT37" class="underline"
 							>this form</a
-						>
+						>.
 					</li>
 				</ol>
 				<p>
 					Any issues, please contact <a class="underline" href="mailto:ticketing@downingball.co.uk"
 						>ticketing@downingball.co.uk</a
-					>
+					>.
 				</p>
 			</div>
 		</CollapsibleText>
@@ -159,8 +159,8 @@
 				<p>
 					Tickets and add-ons may not be resold for a value higher than their purchase price. The
 					Committee reserves the right to cancel any tickets or add-ons that a holder has either
-					sold or attempted to sell for greater than the purchase price. If a ticket is cancelled
-					for this reason, refunds will not be available to either seller or purchaser.
+					sold or attempted to sell for greater than the purchase price. If a ticket or add-on is
+					cancelled for this reason, refunds will not be available to either seller or purchaser.
 				</p>
 			</div>
 		</CollapsibleText>
@@ -197,7 +197,7 @@
 						class="underline"
 						href="mailto:president@downingball.co.uk"
 						>president@downingball.co.uk
-					</a>)
+					</a>).
 				</p>
 			</div>
 		</CollapsibleText>
@@ -243,7 +243,7 @@
 					officer at
 					<a class="underline" href="mailto:ticketing@downingball.co.uk">
 						ticketing@downingball.co.uk
-					</a>
+					</a>.
 				</p>
 			</div>
 		</CollapsibleText>

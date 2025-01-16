@@ -48,6 +48,7 @@
 					role="President"
 					email="president"
 					domain="downingball.co.uk"
+					image="headshots/IMG_0711.jpg"
 				/>
 
 				<CommitteeCard
@@ -55,6 +56,7 @@
 					role="Vice President (Creative)"
 					email="vice-president-creative"
 					domain="downingball.co.uk"
+					image="headshots/IMG_0656.jpg"
 				/>
 
 				<CommitteeCard
@@ -69,6 +71,7 @@
 					role="Vice President (Operations)"
 					email="vice-president-creative"
 					domain="downingball.co.uk"
+					image="headshots/IMG_0687.jpg"
 				/>
 
 				<CommitteeCard
@@ -76,6 +79,7 @@
 					role="Committee Consultant"
 					email="ed589"
 					domain="cam.ac.uk"
+					image="headshots/IMG_0701.jpg"
 				/>
 
 				<CommitteeCard
@@ -83,6 +87,7 @@
 					role="Drinks"
 					email="drinks"
 					domain="downingball.co.uk"
+					image="headshots/IMG_9629.jpg"
 				/>
 
 				<CommitteeCard
@@ -90,6 +95,7 @@
 					role="Drinks"
 					email="drinks"
 					domain="downingball.co.uk"
+					image="headshots/IMG_9636.jpg"
 				/>
 
 				<CommitteeCard
@@ -97,6 +103,7 @@
 					role="Musical Ents"
 					email="music"
 					domain="downingball.co.uk"
+					image="headshots/IMG_9666.jpg"
 				/>
 
 				<CommitteeCard
@@ -104,6 +111,7 @@
 					role="Non-Musical Ents"
 					email="ents"
 					domain="downingball.co.uk"
+					image="headshots/IMG_9623.jpg"
 				/>
 
 				<CommitteeCard
@@ -111,6 +119,7 @@
 					role="Aesthetics"
 					email="aesthetics"
 					domain="downingball.co.uk"
+					image="headshots/IMG_9664.jpg"
 				/>
 
 				<CommitteeCard
@@ -127,9 +136,21 @@
 					domain="downingball.co.uk"
 				/>
 
-				<CommitteeCard name="Aleena Benson" role="Food" email="food" domain="downingball.co.uk" />
+				<CommitteeCard
+					name="Aleena Benson"
+					role="Food"
+					email="food"
+					domain="downingball.co.uk"
+					image="headshots/IMG_9632.jpg"
+				/>
 
-				<CommitteeCard name="Aditya Chougule" role="Food" email="food" domain="downingball.co.uk" />
+				<CommitteeCard
+					name="Aditya Chougule"
+					role="Food"
+					email="food"
+					domain="downingball.co.uk"
+					image="headshots/IMG_9662.jpg"
+				/>
 
 				<CommitteeCard
 					name="Mia Urwin"
@@ -150,6 +171,7 @@
 					role="Ticketing"
 					email="ticketing"
 					domain="downingball.co.uk"
+					image="headshots/IMG_9693.jpg"
 				/>
 
 				<CommitteeCard
@@ -157,6 +179,7 @@
 					role="Logistics"
 					email="logistics"
 					domain="downingball.co.uk"
+					image="headshots/IMG_9667.jpg"
 				/>
 
 				<CommitteeCard
@@ -164,6 +187,7 @@
 					role="Logistics"
 					email="logistics"
 					domain="downingball.co.uk"
+					image="headshots/IMG_9626.jpg"
 				/>
 
 				<CommitteeCard
@@ -178,6 +202,7 @@
 					role="Accessibility, Sustainability & Welfare"
 					email="asw"
 					domain="downingball.co.uk"
+					image="headshots/IMG_9627.jpg"
 				/>
 
 				<CommitteeCard
@@ -185,6 +210,7 @@
 					role="Webmaster"
 					email="webmaster"
 					domain="downingball.co.uk"
+					image="headshots/IMG_0706.jpg"
 				/>
 
 				<CommitteeCard
@@ -192,6 +218,7 @@
 					role="Security and Safety"
 					email="security"
 					domain="downingball.co.uk"
+					image="headshots/IMG_9720.jpg"
 				/>
 
 				<CommitteeCard

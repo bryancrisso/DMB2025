@@ -17,28 +17,28 @@
 					<TicketTypeCard
 						name="Downing Student & Guests"
 						price="£196"
-						additional="4 guests allowed"
+						additional="Up to 4 guests, at £196 each"
 						color="black"
 					/>
 
 					<TicketTypeCard
 						name="Downing Student Full Bursary"
 						price="£90"
-						additional="‏‏‎ ‎"
+						additional="Up to 4 guests, at £196 each"
 						color="black"
 					/>
 
 					<TicketTypeCard
 						name="Downing Alumni & Guests"
 						price="£205"
-						additional="2 guests allowed"
+						additional="Up to 2 guests, at £205 each"
 						color="black"
 					/>
 
 					<TicketTypeCard
 						name="Downing Fellows & Staff"
 						price="£129"
-						additional="2 guests for £196"
+						additional="Up to 2 guests, at £196 each"
 						color="black"
 					/>
 				</div>
@@ -53,14 +53,14 @@
 					<TicketTypeCard
 						name="Cambridge University Student & Guests"
 						price="£205"
-						additional="2 guests allowed"
+						additional="Up to 2 guests, at £205 each"
 						color="black"
 					/>
 
 					<TicketTypeCard
 						name="Non-Cambridge Student & Guests"
 						price="£210"
-						additional="2 guests allowed"
+						additional="Up to 2 guests, at £210 each"
 						color="black"
 					/>
 				</div>
@@ -73,7 +73,7 @@
 					<TicketTypeCard
 						name="VIP"
 						price="£35"
-						additional="Access to the drinks reception"
+						additional="Join for the drinks reception and private viewing of the Heong Gallery"
 						color="black"
 					/>
 
