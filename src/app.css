@@ -3,17 +3,24 @@
 @import 'tailwindcss/utilities';
 
 h1 {
-  font-family: 'Habibi', serif;
+  font-family: 'Tex Gyre Bonum', serif;
 }
 
 h2 {
-  font-family: 'Habibi', serif;
+  font-family: 'Tex Gyre Bonum', serif;
 }
 
 h3 {
-  font-family: 'Habibi', serif;
+  font-family: 'Tex Gyre Bonum', serif;
 }
 
-p {
-  font-family: 'Habibi', serif;
+/*p {*/
+/*  font-family: 'Tex Gyre Bonum', serif;*/
+/*}*/
+
+@font-face {
+  font-family: 'Tex Gyre Bonum';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/fonts/texgyrebonum-regular.otf') format('opentype');
 }

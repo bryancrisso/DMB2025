@@ -1,14 +1,26 @@
+<script>
+	import CommitteeCard from '$lib/CommitteeCard.svelte';
+	import { blur } from 'svelte/transition';
+	import Typewriter from 'svelte-typewriter';
+</script>
+
 <svelte:head>
-	<title>DMB 25</title>
+	<title>DMB'25</title>
 </svelte:head>
-<div class="relative flex min-h-screen w-full items-center justify-center bg-bg-primary p-4">
+<div class="relative flex h-screen w-full items-center justify-center bg-bg-primary p-4">
 	<div class="flex flex-col gap-6">
-		<h1 class="text-center text-6xl tracking-wide text-white md:text-7xl">The Downing May Ball</h1>
-		<h2 class="text-center text-3xl font-light tracking-wide text-white md:text-4xl">
-			Returning on Tuesday the 24th of June 2025
-		</h2>
+		<!-- <h2 class="text-center text-3xl font-light tracking-wide text-white md:text-4xl"> -->
+		<!-- 	Returning on Tuesday the 24th of June 2025 -->
+		<!-- </h2> -->
+		<h2 class="text-center font-serif text-4xl text-white">24/06/2025</h2>
+		<img in:blur src="badge.png" class="max-h-[70vh] md:max-h-[60vh]" alt="Downing May Ball 2025" />
+		<Typewriter interval={100}>
+			<h2 class="text-center font-serif text-xl text-white md:text-3xl">
+				"What will survive of us is love."
+			</h2>
+		</Typewriter>
 	</div>
-	<div class="absolute bottom-8 animate-bounce">
+	<div class="absolute bottom-4 animate-bounce">
 		<svg
 			width="40"
 			height="40"
@@ -23,204 +35,171 @@
 		</svg>
 	</div>
 </div>
+
+<!-- Committee Section -->
 <div>
 	<!-- committee roles go here - 3x columns of name blocks/roles -->
 	<div class="min-h-screen items-center justify-center p-8">
-		<h1 class="text-center text-6xl tracking-wide text-bg-primary md:text-7xl">Committee</h1>
+		<h1 class="text-center text-5xl tracking-wide text-bg-primary md:text-7xl">Committee</h1>
 		<div class="mx-auto mb-16 mt-16 max-w-7xl px-4 lg:px-24">
-			<div class="grid grid-cols-1 gap-x-16 gap-y-14 md:grid-cols-2 lg:grid-cols-3">
-				<div
-					class="flex h-40 w-full flex-col items-center justify-center rounded-md
-          border-2 border-solid border-bg-primary p-6 text-center md:col-span-2 lg:col-span-3"
-				>
-					<h3 class="text-xl font-bold text-bg-primary">Finn Lavington</h3>
-					<p class="text-center text-lg font-medium text-gray-600">President</p>
-					<p class="text-center text-sm font-medium text-gray-400">president@downingball.co.uk</p>
-				</div>
+			<div class="grid grid-cols-1 gap-x-8 gap-y-7 md:grid-cols-2 lg:grid-cols-3">
+				<CommitteeCard
+					name="Finn Lavington"
+					role="President"
+					email="president"
+					domain="downingball.co.uk"
+				/>
 
-				<div
-					class="flex h-40 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6 text-center"
-				>
-					<h3 class="text-xl font-bold text-bg-primary">Ivan Alexei Ampiah</h3>
-					<p class="text-center text-lg font-medium text-gray-600">Vice President (Creative)</p>
-					<p class="text-center text-sm font-medium text-gray-400">
-						vice-president-creative@downingball.co.uk
-					</p>
-				</div>
+				<CommitteeCard
+					name="Ivan Alexei Ampiah"
+					role="Vice President (Creative)"
+					email="vice-president-creative"
+					domain="downingball.co.uk"
+				/>
 
-				<div
-					class="flex h-40 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6 text-center"
-				>
-					<h3 class="text-xl font-bold text-bg-primary">Cameron Lackey</h3>
-					<p class="text-center text-lg font-medium text-gray-600">Treasurer</p>
-					<p class="text-center text-sm font-medium text-gray-400">treasurer@downingball.co.uk</p>
-				</div>
+				<CommitteeCard
+					name="Cameron Lackey"
+					role="Treasurer"
+					email="treasurer"
+					domain="downingball.co.uk"
+				/>
 
-				<div
-					class="flex h-40 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6 text-center"
-				>
-					<h3 class="text-xl font-bold text-bg-primary">Senya Kang</h3>
-					<p class="text-center text-lg font-medium text-gray-600">Vice President (Operations)</p>
-					<p class="text-center text-sm font-medium text-gray-400">
-						vice-president-operations@downingball.co.uk
-					</p>
-				</div>
+				<CommitteeCard
+					name="Senya Kang"
+					role="Vice President (Operations)"
+					email="vice-president-creative"
+					domain="downingball.co.uk"
+				/>
 
-				<div
-					class="flex h-40 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6 text-center"
-				>
-					<h3 class="text-xl font-bold text-bg-primary">Emily Darnell</h3>
-					<p class="text-center text-lg font-medium text-gray-600">Committee Consultant</p>
-					<p class="text-center text-sm font-medium text-gray-400">ed589@cam.ac.uk</p>
-				</div>
+				<CommitteeCard
+					name="Emily Darnell"
+					role="Committee Consultant"
+					email="ed589"
+					domain="cam.ac.uk"
+				/>
 
-				<div
-					class="flex h-40 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6 text-center"
-				>
-					<h3 class="text-xl font-bold text-bg-primary">Connor Dennis</h3>
-					<p class="text-center text-lg font-medium text-gray-600">Drinks</p>
-					<p class="text-center text-sm font-medium text-gray-400">drinks@downingball.co.uk</p>
-				</div>
+				<CommitteeCard
+					name="Connor Dennis"
+					role="Drinks"
+					email="drinks"
+					domain="downingball.co.uk"
+				/>
 
-				<div
-					class="flex h-40 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6 text-center"
-				>
-					<h3 class="text-xl font-bold text-bg-primary">Thomas Quail</h3>
-					<p class="text-center text-lg font-medium text-gray-600">Drinks</p>
-					<p class="text-center text-sm font-medium text-gray-400">drinks@downingball.co.uk</p>
-				</div>
+				<CommitteeCard
+					name="Thomas Quail"
+					role="Drinks"
+					email="drinks"
+					domain="downingball.co.uk"
+				/>
 
-				<div
-					class="flex h-40 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6 text-center"
-				>
-					<h3 class="text-xl font-bold text-bg-primary">Arun Gill</h3>
-					<p class="text-center text-lg font-medium text-gray-600">Musical Ents</p>
-					<p class="text-center text-sm font-medium text-gray-400">music@downingball.co.uk</p>
-				</div>
+				<CommitteeCard
+					name="Arun Gill"
+					role="Musical Ents"
+					email="music"
+					domain="downingball.co.uk"
+				/>
 
-				<div
-					class="flex h-40 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6 text-center"
-				>
-					<h3 class="text-xl font-bold text-bg-primary">James Waine</h3>
-					<p class="text-center text-lg font-medium text-gray-600">Non-Musical Ents</p>
-					<p class="text-center text-sm font-medium text-gray-400">ents@downingball.co.uk</p>
-				</div>
+				<CommitteeCard
+					name="James Waine"
+					role="Non-Musical Ents"
+					email="ents"
+					domain="downingball.co.uk"
+				/>
 
-				<div
-					class="flex h-40 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6 text-center"
-				>
-					<h3 class="text-xl font-bold text-bg-primary">Imogen Knight</h3>
-					<p class="text-center text-lg font-medium text-gray-600">Aesthetics</p>
-					<p class="text-center text-sm font-medium text-gray-400">aesthetics@downingball.co.uk</p>
-				</div>
+				<CommitteeCard
+					name="Imogen Knight"
+					role="Aesthetics"
+					email="aesthetics"
+					domain="downingball.co.uk"
+				/>
 
-				<div
-					class="flex h-40 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6 text-center"
-				>
-					<h3 class="text-xl font-bold text-bg-primary">Abraham Villiers</h3>
-					<p class="text-center text-lg font-medium text-gray-600">Aesthetics</p>
-					<p class="text-center text-sm font-medium text-gray-400">aesthetics@downingball.co.uk</p>
-				</div>
+				<CommitteeCard
+					name="Abraham Villiers"
+					role="Aesthetics"
+					email="aesthetics"
+					domain="downingball.co.uk"
+				/>
 
-				<div
-					class="flex h-40 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6 text-center"
-				>
-					<h3 class="text-xl font-bold text-bg-primary">Charlotte Crawley</h3>
-					<p class="text-center text-lg font-medium text-gray-600">Aesthetics</p>
-					<p class="text-center text-sm font-medium text-gray-400">aesthetics@downingball.co.uk</p>
-				</div>
+				<CommitteeCard
+					name="Charlotte Crawley"
+					role="Aesthetics"
+					email="aesthetics"
+					domain="downingball.co.uk"
+				/>
 
-				<div
-					class="flex h-40 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6 text-center"
-				>
-					<h3 class="text-center text-xl font-bold text-bg-primary">Aleena Benson</h3>
-					<p class="text-center text-lg font-medium text-gray-600">Food</p>
-					<p class="text-center text-sm font-medium text-gray-400">food@downingball.co.uk</p>
-				</div>
+				<CommitteeCard name="Aleena Benson" role="Food" email="food" domain="downingball.co.uk" />
 
-				<div
-					class="flex h-40 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6 text-center"
-				>
-					<h3 class="text-xl font-bold text-bg-primary">Aditya Chougule</h3>
-					<p class="text-center text-lg font-medium text-gray-600">Food</p>
-					<p class="text-center text-sm font-medium text-gray-400">food@downingball.co.uk</p>
-				</div>
+				<CommitteeCard name="Aditya Chougule" role="Food" email="food" domain="downingball.co.uk" />
 
-				<div
-					class="flex h-40 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6 text-center"
-				>
-					<h3 class="text-xl font-bold text-bg-primary">Mia Urwin</h3>
-					<p class="text-center text-lg font-medium text-gray-600">Personnel</p>
-					<p class="text-center text-sm font-medium text-gray-400">personnel@downingball.co.uk</p>
-				</div>
+				<CommitteeCard
+					name="Mia Urwin"
+					role="Personnel"
+					email="personnel"
+					domain="downingball.co.uk"
+				/>
 
-				<div
-					class="flex h-40 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6 text-center"
-				>
-					<h3 class="text-xl font-bold text-bg-primary">Dana Marlow</h3>
-					<p class="text-center text-lg font-medium text-gray-600">Personnel</p>
-					<p class="text-center text-sm font-medium text-gray-400">personnel@downingball.co.uk</p>
-				</div>
+				<CommitteeCard
+					name="Dana Marlow"
+					role="Personnel"
+					email="personnel"
+					domain="downingball.co.uk"
+				/>
 
-				<div
-					class="flex h-40 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6 text-center"
-				>
-					<h3 class="text-xl font-bold text-bg-primary">James Jefferson</h3>
-					<p class="text-center text-lg font-medium text-gray-600">Ticketing</p>
-					<p class="text-center text-sm font-medium text-gray-400">ticketing@downingball.co.uk</p>
-				</div>
+				<CommitteeCard
+					name="James Jefferson"
+					role="Ticketing"
+					email="ticketing"
+					domain="downingball.co.uk"
+				/>
 
-				<div
-					class="flex h-40 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6 text-center"
-				>
-					<h3 class="text-xl font-bold text-bg-primary">Alex Shirley</h3>
-					<p class="text-center text-lg font-medium text-gray-600">Logistics</p>
-					<p class="text-center text-sm font-medium text-gray-400">logistics@downingball.co.uk</p>
-				</div>
+				<CommitteeCard
+					name="Alex Shirley"
+					role="Logistics"
+					email="logistics"
+					domain="downingball.co.uk"
+				/>
 
-				<div
-					class="flex h-40 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6 text-center"
-				>
-					<h3 class="text-xl font-bold text-bg-primary">Stella Wilson</h3>
-					<p class="text-center text-lg font-medium text-gray-600">Logistics</p>
-					<p class="text-center text-sm font-medium text-gray-400">logistics@downingball.co.uk</p>
-				</div>
+				<CommitteeCard
+					name="Stella Wilson"
+					role="Logistics"
+					email="logistics"
+					domain="downingball.co.uk"
+				/>
 
-				<div
-					class="flex h-40 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6 text-center"
-				>
-					<h3 class="text-center text-xl font-bold text-bg-primary">Marcus Cloke Browne</h3>
-					<p class="text-center text-lg font-medium text-gray-600">Production</p>
-					<p class="text-center text-sm font-medium text-gray-400">production@downingball.co.uk</p>
-				</div>
+				<CommitteeCard
+					name="Marcus Cloke Brown"
+					role="Production"
+					email="production"
+					domain="downingball.co.uk"
+				/>
 
-				<div
-					class="flex h-40 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6 text-center"
-				>
-					<h3 class="text-xl font-bold text-bg-primary">Rosie Egelie</h3>
-					<p class="text-center text-lg font-medium text-gray-600">
-						Accessibility, Sustainability & Welfare
-					</p>
-					<p class="text-center text-sm font-medium text-gray-400">asw@downingball.co.uk</p>
-				</div>
+				<CommitteeCard
+					name="Rosie Egelie"
+					role="Accessibility, Sustainability & Welfare"
+					email="asw"
+					domain="downingball.co.uk"
+				/>
 
-				<div
-					class="flex h-40 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6 text-center"
-				>
-					<h3 class="text-xl font-bold text-bg-primary">Bryan Abi Karam</h3>
-					<p class="text-center text-lg font-medium text-gray-600">Webmaster</p>
-					<p class="text-center text-sm font-medium text-gray-400">webmaster@downingball.co.uk</p>
-				</div>
+				<CommitteeCard
+					name="Bryan Abi Karam"
+					role="Webmaster"
+					email="webmaster"
+					domain="downingball.co.uk"
+				/>
 
-				<div class="max-lg:hidden"></div>
+				<CommitteeCard
+					name="Tom Mills"
+					role="Security and Safety"
+					email="security"
+					domain="downingball.co.uk"
+				/>
 
-				<div
-					class="flex h-40 w-full flex-col items-center justify-center rounded-md border-2 border-solid border-bg-primary p-6 text-center"
-				>
-					<h3 class="text-xl font-bold text-bg-primary">Tom Mills</h3>
-					<p class="text-center text-lg font-medium text-gray-600">Security and Safety</p>
-					<p class="text-center text-sm font-medium text-gray-400">security@downingball.co.uk</p>
-				</div>
+				<CommitteeCard
+					name="Molly Olivier"
+					role="Graphics"
+					email="graphics"
+					domain="downingball.co.uk"
+				/>
 			</div>
 		</div>
 	</div>

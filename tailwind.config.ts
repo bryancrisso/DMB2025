@@ -10,8 +10,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        'bg-primary': '#a41966',
+        //        'bg-primary': '#a41966',
+        'bg-primary': '#000000',
       }
+    },
+    fontFamily: {
+      'serif': ['"Tex Gyre Bonum"'],
     }
   },
 
