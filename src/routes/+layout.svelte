@@ -106,7 +106,7 @@
 			</div>
 			<a
 				class="text-center font-serif text-base font-extrabold text-white hover:underline"
-				href="Terms & Conditions DMB 2025.pdf">Terms & Conditions</a
+				href="/Terms & Conditions DMB 2025.pdf">Terms & Conditions</a
 			>
 			<p class="text-center font-serif text-lg font-bold text-white">Address</p>
 			<p class="text-md text-center font-serif text-white">

@@ -206,7 +206,7 @@
 			<div class="pl-2 text-left font-serif text-sm font-bold text-gray-200 md:text-base">
 				<p>
 					Valid photographic identification (passports, driving licences or physical cards issued
-					under the PASS scheme. Purchasers of the Downing Student, or current Cambridge Student
+					under the PASS scheme). Purchasers of the Downing Student or current Cambridge Student
 					ticket types must also bring their University Card. Originals must be brought -
 					photocopies, images or other duplicates of identification will not be accepted.
 				</p>
@@ -237,10 +237,9 @@
 		>
 			<div class="pl-2 text-left font-serif text-sm font-bold text-gray-200 md:text-base">
 				<p>
-					Unfortunately, due to University policy, if you are intermitting at the time of the May
-					Ball, you are not allowed to attend. Any student who intermits in the time between buying
-					a ticket and the date of the Ball is eligible for a refund by contacting the ticketing
-					officer at
+					You unfortunately are not able to attend if you are intermitting at the time of the Ball,
+					due to University policy. Any student who intermits in the time between buying a ticket
+					and the date of the Ball is eligible for a refund by contacting the ticketing officer at
 					<a class="underline" href="mailto:ticketing@downingball.co.uk">
 						ticketing@downingball.co.uk
 					</a>.
@@ -250,10 +249,7 @@
 
 		<CollapsibleText question="Is re-entry permitted?">
 			<div class="pl-2 text-left font-serif text-sm font-bold text-gray-200 md:text-base">
-				<p>
-					Unfortunately, due to the security complexities of the May Ball, re-entry is not
-					permitted.
-				</p>
+				<p>Due to the security complexities of the May Ball, re-entry is not permitted.</p>
 			</div>
 		</CollapsibleText>
 
@@ -270,7 +266,8 @@
 		<CollapsibleText question="Is smoking prohibited during the May Ball?">
 			<div class="pl-2 text-left font-serif text-sm font-bold text-gray-200 md:text-base">
 				<p>
-					Smoking is strictly prohibited during the May Ball except in the designated smoking areas.
+					Smoking is only permitted in the designated smoking areas, and is strictly prohibited in
+					the rest of the Ball site.
 				</p>
 			</div>
 		</CollapsibleText>

@@ -29,7 +29,7 @@
 		</table>
 
 		<p class="text-center font-serif text-lg text-white md:text-xl">
-			Survivor's photo is at 5:30am and event exit at 6am
+			Survivors' photo is at 5:30am and event exit at 6am
 		</p>
 	</div>
 </div>

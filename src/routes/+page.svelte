@@ -13,7 +13,12 @@
 		<!-- 	Returning on Tuesday the 24th of June 2025 -->
 		<!-- </h2> -->
 		<h2 class="text-center font-serif text-4xl text-white">24/06/2025</h2>
-		<img in:blur src="badge.png" class="max-h-[70vh] md:max-h-[60vh]" alt="Downing May Ball 2025" />
+		<img
+			in:blur
+			src="/badge.png"
+			class="max-h-[70vh] md:max-h-[60vh]"
+			alt="Downing May Ball 2025"
+		/>
 		<Typewriter interval={100}>
 			<h2 class="text-center font-serif text-xl text-white md:text-3xl">
 				"What will survive of us is love."
@@ -37,10 +42,14 @@
 </div>
 
 <!-- Committee Section -->
-<div>
+<div class="bg-black">
+	<div class="absolute flex w-full justify-center overflow-hidden">
+		<img src="/border.png" class="h-auto min-w-[1020px] md:min-w-[2040px]" alt="" />
+	</div>
+	<div class="h-[72px] bg-black md:h-[145px]"></div>
 	<!-- committee roles go here - 3x columns of name blocks/roles -->
-	<div class="min-h-screen items-center justify-center p-8">
-		<h1 class="text-center text-5xl tracking-wide text-bg-primary md:text-7xl">Committee</h1>
+	<div class="min-h-screen items-center justify-center bg-white p-8">
+		<h1 class="mt-10 text-center text-5xl tracking-wide text-bg-primary md:text-7xl">Committee</h1>
 		<div class="mx-auto mb-16 mt-16 max-w-7xl px-4 lg:px-24">
 			<div class="grid grid-cols-1 gap-x-8 gap-y-7 md:grid-cols-2 lg:grid-cols-3">
 				<CommitteeCard
