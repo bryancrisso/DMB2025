@@ -1,10 +1,21 @@
 <svelte:head>
 	<title>Working at DMB'25</title>
 </svelte:head>
-<div class="relative flex h-screen w-full items-center justify-center bg-bg-primary p-4">
-	<div class="flex flex-col gap-6">
-		<h2 class="text-center font-serif text-3xl text-white md:text-4xl">Working at DMB'25</h2>
-		<p class="text-center font-serif text-lg text-white md:text-xl">
+<div
+	class="relative flex h-screen w-full items-center justify-center bg-crimson
+          bg-[url('/launch_graphics/svgs/bg_pattern_red.svg')] bg-cover bg-center bg-repeat-y p-4
+  "
+>
+	<div class="relative flex flex-col gap-6">
+		<img
+			class="absolute -top-10 scale-110 md:-top-12 md:scale-x-150 md:scale-y-125"
+			src="/launch_graphics/svgs/scroll.svg"
+			alt=""
+		/>
+		<h2 class="z-10 mb-8 text-center font-serif text-4xl text-dark-red md:text-7xl">
+			Working at DMB'25
+		</h2>
+		<p class="text-center font-serif text-xl text-off-white md:text-3xl">
 			Apply to work at the ball <a
 				class="underline"
 				href="https://docs.google.com/forms/d/e/1FAIpQLSfpwV4KkSYuLTeoMiXoGQebuyxwCnM1OYMVSB8AwHiPqX8uYQ/viewform"
@@ -12,7 +23,7 @@
 			>
 		</p>
 
-		<p class="text-center font-serif text-lg text-white md:text-xl">
+		<p class="text-center font-serif text-xl text-off-white md:text-2xl">
 			Any inquiries to work as a photographer should <br />be emailed to
 			<a class="underline" href="mailto:webmaster@downingball.co.uk">webmaster@downingball.co.uk</a>
 		</p>
