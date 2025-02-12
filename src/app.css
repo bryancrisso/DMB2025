@@ -24,3 +24,10 @@ h3 {
   font-weight: 500;
   src: url('/fonts/PirataOne-Regular.ttf') format('truetype');
 }
+
+@font-face {
+  font-family: 'Tex Gyre Bonum';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/fonts/texgyrebonum-regular.otf') format('opentype');
+}

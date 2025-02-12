@@ -25,6 +25,7 @@ export default {
     },
     fontFamily: {
       'serif': ['"Pirata One"'],
+      'medium': ['"Tex Gyre Bonum"'],
     },
   },
 

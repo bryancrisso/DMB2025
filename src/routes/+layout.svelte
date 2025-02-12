@@ -137,7 +137,7 @@
 				Downing College May Ball<br />Downing College<br />Regent St, Cambridge<br />CB2 1DQ
 			</p>
 			<p class="text-center font-serif text-lg text-crimson">
-				Creative design by Molly Olivier. Website implementation and photography by Bryan Abi Karam
+				Creative design by Molly Ollivier. Website implementation and photography by Bryan Abi Karam
 			</p>
 			<p class="text-center font-serif text-lg text-crimson">
 				Copyright © 2025 Downing College May Ball - VAT Number: 905135158

@@ -14,7 +14,7 @@
 			<h1 class="text-center text-7xl tracking-wide text-dark-red">DMB'25</h1>
 			<h2 class="text-center text-3xl tracking-wide text-dark-red">Presents</h2>
 			<img
-				class="z-10 -mt-8 h-full md:-mt-16"
+				class="z-10 -mt-7 h-full md:-mt-14"
 				src="/launch_graphics/svgs/main_graphic.svg"
 				alt="Downing May Ball 2025"
 			/>
@@ -42,6 +42,12 @@ bg-contain bg-center bg-repeat-y pb-28 pt-20 md:bg-cover
     "
 	>
 		<h1 id="ticketing" class="text-center text-7xl tracking-wide text-crimson">Tickets</h1>
+		<a
+			href="https://buytickets.at/dmb2025/1515725"
+			class="text-center font-serif text-4xl tracking-wide text-royal-purple underline duration-100 hover:scale-105"
+		>
+			Buy tickets here
+		</a>
 
 		<div class="items-center justify-center p-1">
 			<div class="mx-auto max-w-3xl px-4">
@@ -101,19 +107,19 @@ bg-contain bg-center bg-repeat-y pb-28 pt-20 md:bg-cover
 	</div>
 	<div class="h-8 bg-very-off-white"></div>
 	<div class="flex w-full -scale-y-100 flex-row">
-		<img class="z-10 w-full" src="/launch_graphics/svgs/border-3.svg" alt="" />
-		<img class="z-10 w-full" src="/launch_graphics/svgs/border-3.svg" alt="" />
-		<img class="z-10 w-full" src="/launch_graphics/svgs/border-3.svg" alt="" />
-		<img class="z-10 w-full" src="/launch_graphics/svgs/border-3.svg" alt="" />
-		<img class="z-10 w-full" src="/launch_graphics/svgs/border-3.svg" alt="" />
+		<img class="z-10 w-1/5" src="/launch_graphics/svgs/border-3.svg" alt="" />
+		<img class="z-10 w-1/5" src="/launch_graphics/svgs/border-3.svg" alt="" />
+		<img class="z-10 w-1/5" src="/launch_graphics/svgs/border-3.svg" alt="" />
+		<img class="z-10 w-1/5" src="/launch_graphics/svgs/border-3.svg" alt="" />
+		<img class="z-10 w-1/5" src="/launch_graphics/svgs/border-3.svg" alt="" />
 	</div>
 	<img class="z-10 w-full" src="/launch_graphics/svgs/border-4.svg" alt="" />
 	<div class="flex w-full flex-row">
-		<img class="z-10 w-full" src="/launch_graphics/svgs/border-3.svg" alt="" />
-		<img class="z-10 w-full" src="/launch_graphics/svgs/border-3.svg" alt="" />
-		<img class="z-10 w-full" src="/launch_graphics/svgs/border-3.svg" alt="" />
-		<img class="z-10 w-full" src="/launch_graphics/svgs/border-3.svg" alt="" />
-		<img class="z-10 w-full" src="/launch_graphics/svgs/border-3.svg" alt="" />
+		<img class="z-10 w-1/5" src="/launch_graphics/svgs/border-3.svg" alt="" />
+		<img class="z-10 w-1/5" src="/launch_graphics/svgs/border-3.svg" alt="" />
+		<img class="z-10 w-1/5" src="/launch_graphics/svgs/border-3.svg" alt="" />
+		<img class="z-10 w-1/5" src="/launch_graphics/svgs/border-3.svg" alt="" />
+		<img class="z-10 w-1/5" src="/launch_graphics/svgs/border-3.svg" alt="" />
 	</div>
 </div>
 <!-- Committee Section -->
@@ -163,7 +169,7 @@ bg-contain bg-center bg-repeat-y pb-28 pt-20 md:bg-cover
 			<CommitteeCard
 				name="Senya Kang"
 				role="Vice President (Operations)"
-				email="vice-president-creative"
+				email="vice-president-operations"
 				domain="downingball.co.uk"
 				image="color_headshots/IMG_0691.jpg"
 			/>
@@ -316,7 +322,7 @@ bg-contain bg-center bg-repeat-y pb-28 pt-20 md:bg-cover
 			/>
 
 			<CommitteeCard
-				name="Molly Olivier"
+				name="Molly Ollivier"
 				role="Graphics"
 				email="graphics"
 				domain="downingball.co.uk"
