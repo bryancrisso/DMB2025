@@ -87,6 +87,12 @@ bg-contain bg-center bg-repeat-y pb-28 pt-20 md:bg-cover
 						price="£210"
 						additional="Up to 2 guests, at £210 each"
 					/>
+
+					<TicketTypeCard
+						name="Robinson College Student & Guests"
+						price="£196"
+						additional="Up to 2 guests, at £205 each"
+					/>
 				</div>
 			</div>
 		</div>
