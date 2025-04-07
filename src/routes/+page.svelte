@@ -140,11 +140,63 @@ bg-contain bg-center bg-repeat-y pb-28 pt-20 md:bg-cover
 		<img class="z-10 w-1/5" src="/launch_graphics/svgs/border-3.svg" alt="" />
 	</div>
 </div>
+
+<!--Charity Section-->
+
+<div class="flex flex-col items-center justify-center gap-8 bg-royal-purple">
+	<div
+		class="
+  flex flex-col items-center gap-8 bg-[url('/launch_graphics/svgs/bg_pattern_purple.svg')]
+bg-contain bg-center bg-repeat-y py-16 md:bg-cover
+    "
+	>
+		<h1 class="text-center text-7xl tracking-wide text-dark-gold">Charities</h1>
+		<h2 class="mb-8 text-center text-2xl tracking-wide text-dark-gold md:text-3xl">
+			This year, we are supporting the following charity:
+		</h2>
+		<img
+			class="mb-10 w-[90%] md:w-3/5"
+			src="/charity_graphics/white_title.png"
+			alt="Clarissa's Campaign for Cambridge Hearts"
+		/>
+		<p class="w-5/6 text-center text-lg tracking-wide text-off-white md:mx-16 md:w-3/5 md:text-2xl">
+			Clarissa Nicholls was a French and Italian student at Tit Hall, and would have been in her
+			fourth and final year. She embodied the work hard play hard mindset. Her cackle was
+			outrageously infectious, her positivity unwavering, her singing atrocious, and her love,
+			ambition and achievements boundless.
+		</p>
+		<p class="w-5/6 text-center text-lg tracking-wide text-off-white md:mx-16 md:w-3/5 md:text-2xl">
+			Last year, Clarissa collapsed and passed away from an undiagnosed heart condition.<br />
+			In cooperation with <span class="text-dark-gold">Cardiac Risk in the Young (CRY)</span> Clarissa's
+			family and the University, the campaign is hoping to start an annual four-day ECG screening service
+			for Cambridge students.
+		</p>
+		<p class="w-5/6 text-center text-lg tracking-wide text-off-white md:mx-16 md:w-3/5 md:text-2xl">
+			We hope you will consider donating to the campaign to show your support <a
+				class="text-yellow-400 underline"
+				href="https://www.gofundme.com/f/clarissas-campaign">here</a
+			>
+		</p>
+		<div class="flex w-5/6 flex-row items-center justify-center gap-4 md:w-3/5 md:gap-16">
+			<img
+				class="w-1/3"
+				src="/charity_graphics/white_logo.png"
+				alt="Clarissa's Campaign for Cambridge Hearts"
+			/>
+			<img class="w-1/3" src="/charity_graphics/clarissa_image.png" alt="" />
+			<img
+				class="w-1/3"
+				src="/charity_graphics/cry_logo.png"
+				alt="Cardiac Risk in the Young (CRY)"
+			/>
+		</div>
+	</div>
+</div>
+
 <!-- Committee Section -->
 <!-- committee roles go here - 3x columns of name blocks/roles -->
-<div class="h-4 bg-dark-gold"></div>
 <div
-	class="flex min-h-screen flex-col items-center justify-center bg-dark-gold bg-[url(/launch_graphics/curtains.png)] bg-top bg-repeat-y p-8 pt-16"
+	class="flex min-h-screen flex-col items-center justify-center bg-royal-purple bg-[url(/launch_graphics/curtains.png)] bg-top bg-repeat-y p-8 pt-16"
 >
 	<div class="relative">
 		<h1 class="text-center text-7xl tracking-wide text-dark-gold">Committee</h1>
