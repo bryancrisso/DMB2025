@@ -132,6 +132,10 @@
 				class="text-center font-serif text-xl font-extrabold text-darkest-red hover:underline"
 				href="/Terms & Conditions DMB 2025.pdf">Terms & Conditions</a
 			>
+			<a
+				class="text-center font-serif text-xl font-extrabold text-darkest-red hover:underline"
+				href="/DPS - May Ball v.6.6.pdf">Data Protection Statement</a
+			>
 			<p class="text-center font-serif text-2xl font-bold text-darkest-red">Address</p>
 			<p class="text-center font-serif text-lg text-darkest-red">
 				Downing College May Ball<br />Downing College<br />Regent St, Cambridge<br />CB2 1DQ
